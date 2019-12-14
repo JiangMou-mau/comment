@@ -3,12 +3,11 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
 
-class Comment extends Authenticatable
+
+class Comment extends Model
 {
-    use Notifiable;
+
     protected $table = 'comments';
     protected $primaryKey = 'cid';
     const UPDATED_AT = null;
