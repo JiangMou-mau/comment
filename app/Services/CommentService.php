@@ -19,10 +19,9 @@ class CommentService
 //        for ($i = 0; $i < 100; $i++) {
 //            $data['title'] = "test title $i";
 //            $data['content'] = "test content $i";
+//            $data['cfid'] = $data['user']->fid;
 //            Comment::create($data);
 //        }
-
-
     }
 
     public function showComment($data)
